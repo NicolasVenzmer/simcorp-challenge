@@ -23,7 +23,7 @@ function counter(list){
             count++;
         }
     }
-    console.log("The array: " + list + " has " + count + " boomerangs.");
+    console.log(`The list [${list}] has ${count} boomerangs.`);
 }
 
 counter([9, 5, 9, 5, 1, 1, 1]);
